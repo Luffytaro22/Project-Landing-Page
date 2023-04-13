@@ -1,0 +1,148 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    margin:0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding:0;
+}
+header{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    position:fixed;
+}
+header h1{
+    margin-top: 10px;
+    color:#F9FaF8;
+}
+#img-logo img{
+    width:100px;
+    height:60px;
+   
+}
+
+#header-bar a{
+    color:#E5E7EB;
+    text-decoration: none;
+}
+#header-bar{
+    list-style: none;
+    
+}
+#header-bar nav{
+    display:flex;
+    
+}
+#header-bar nav li{
+    margin: 20px;
+}
+main{
+    margin: 0px;
+    padding-top:63px;
+}
+
+#sign-up{
+    background-color: #1F2937;
+    color:white;
+    margin:0;
+}
+.container1{
+    display:flex;
+    padding: 100px;
+}
+.sub-container1{
+    flex:1;
+}
+.sub-container1 h1{
+    font-size: 48px;
+    font: bold;
+    color: #F9FaF8;
+}
+
+.sub-container1 p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.sub-container1 img{
+    width: 500px;
+    border-radius: 10px;
+    height:300px;
+}
+
+#information h1{
+    font-size: 36px;
+    font: bold;
+    color: #1F2937;
+    padding-top: 60px;
+    text-align: center;
+}
+.container2{
+    display:flex;
+    justify-content: center;
+    padding-top: 50px;
+    gap: 50px;
+}
+.sub-container2{
+    margin:0;
+    text-align: center;
+}
+.sub-container2 img{
+    width: 200px;
+    border-radius: 10px;
+    border: 5px solid #1F2937;
+}
+#quote{
+    margin-top: 100px;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font:lighter;
+    padding: 200px;
+    
+}
+#author{
+    text-align: end;
+}
+#sign-up-call{
+    padding: 50px 300px;
+    margin: 0;
+}
+.container3{
+    display:flex;
+    justify-content: center;
+    gap: 60px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 30px 0;
+}
+.sub-container3 h2{
+  color:#F9FaF8;
+}
+.sub-container3 p{
+    color:#E5E7EB;
+}
+.button{
+    background-color:#3882F6;
+    color: white;
+    padding:10px 15px;
+    border-radius: 5px;
+    border:none;
+    font:bolder;
+}
+.button1{
+    margin-top: 20px;
+    padding: 10px 30px;
+}
+.button2{
+    border: 1px solid white;
+}
+footer{
+    background-color: #1F2937;
+    color:#F9FaF8;
+    padding: 50px 0;
+    text-align: center;
+}
